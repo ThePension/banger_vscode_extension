@@ -1,0 +1,25 @@
+{
+  "name": "banger",
+  "displayName": "Banger",
+  "description": "Syntax highlight for Banger language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "banger",
+      "aliases": ["Banger", "banger"],
+      "extensions": ["banger"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "banger",
+      "scopeName": "",
+      "path": "./syntaxes/banger.tmLanguage.json"
+    }]
+  }
+}
